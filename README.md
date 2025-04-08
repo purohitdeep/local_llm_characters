@@ -33,17 +33,17 @@ This will prompt you to select a model from the available options. The script au
 ### Character Interaction
 You can interact with individual characters:
 ```bash
-./marvin.sh "Tell me about artificial intelligence"
-./gandalf.sh "What is the nature of power?"
-./yoda.sh "How to become a Jedi?"
-./sherlock.sh "Solve this mystery for me"
-./tony_stark.sh "Design a new technology"
+./run.sh marvin "Tell me about artificial intelligence"
+./run.sh gandalf "What is the nature of power?"
+./run.sh yoda "How to become a Jedi?"
+./run.sh sherlock "Solve this mystery for me"
+./run.sh tony_stark "Design a new technology"
 ```
 
 ### All Characters at Once
 To get responses from all characters for the same prompt:
 ```bash
-./all.sh "What is the meaning of life?"
+./run.sh all "What is the meaning of life?"
 ```
 This will display responses from each character (limited to the first 3 lines per character).
 
